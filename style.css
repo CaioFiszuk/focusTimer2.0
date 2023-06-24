@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+main{
+    width: 82.1rem;
+    margin: 19.6rem auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden{
+    display: none;
+}
+
+.mode{
+    position: absolute;
+    top: 6rem;
+    right: 6rem;
+}
+
+#sounds{
+
+    display: grid;
+    grid-template-areas: "one two"
+                         "three four";
+
+    gap: 3.2rem;                      
+}
+
+#sounds:nth-child(1){
+ grid-area: one;   
+}
+
+#sounds:nth-child(2){
+    grid-area: two;   
+}
+
+#sounds:nth-child(3){
+    grid-area: three;   
+}
+
+#sounds:nth-child(4){
+    grid-area: four;   
+}
+
+.forestCard, .fireplaceCard, .coffeShopCard{
+    background-color: #e1e1e6;
+    border-radius: 2.4rem;
+    border: none;
+    width: 13.8rem;
+    height: 15.2rem;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.forestCard:hover, 
+.fireplaceCard:hover, 
+.coffeShopCard:hover, .card-clicked1{
+    background-color: #b2b2b9;
+}
+
+.rainCard{
+    background-color: #02799d;
+    border-radius: 2.4rem;
+    border: none;
+    width: 13.8rem;
+    height: 15.2rem;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.rainCard:hover, .card-clicked2{
+    background-color: #014e65;
+}
+
+#volume{
+    width: 9rem;
+}
+
+#timer{
+    padding-top: 7rem;
+}
+
+.minutes, .dots, .seconds{
+    color: #323238;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12.6rem;
+    line-height: 14.6rem;
+}
+
+#controls{
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 3.7rem;
+}
+
+#controls button{
+    background-color: transparent;
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+
+.mode{
+    cursor: pointer;
+}
+
+.darkApp{
+    background-color: #121214;
+}
+
+.white{
+    color: white;
+}
+
+.darkCard{
+    background-color: #29292e;
+}
+
+.darkCard:hover, .darkCard-clicked{
+    background-color: #212121;
+}
+
+.darkCard2{
+    background-color: #0a3442;
+}
+
+.darkCard2:hover, .darkCard2-clicked2{
+    background-color: #0b2129;
+}

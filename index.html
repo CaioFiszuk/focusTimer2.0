@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Focus Timer 2.0</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+       <img src="./images/soleil.png" alt="sun icon" class="mode" id="lightMode">
+       <img src="./images/moon.png" alt="moon icon" class="mode hidden" id="darkMode">
+
+       <div id="timer">
+          <span class="minutes">25</span>
+          <span class="dots">:</span>
+          <span class="seconds">00</span>
+
+          <div id="controls">
+             <button class="play">
+               <img src="./images/play-button.png" alt="play" class="playIcon">
+               <img src="./images/play2.png" alt="play button" class="darkPlayIcon hidden">
+            </button>
+             <button class="stop">
+               <img src="./images/stop-button.png" alt="stop button" class="stopIcon">
+               <img src="./images/stop2.png" alt="stop button" class="darkStopIcon hidden">
+            </button>
+             <button class="increasing">
+               <img src="./images/increase-button.png" alt="increasing button" class="increaseIcon">
+               <img src="./images/increase-button2.png" alt="increasing button" class="darkIncreaseIcon hidden">
+            </button>
+             <button class="decreasing">
+               <img src="./images/decrease-button.png" alt="decreasing button" class="decreaseIcon">
+               <img src="./images/decrease-button2.png" alt="decreasing button" class="darkDecreaseIcon hidden">
+            </button>
+          </div>
+       </div>
+
+       <div id="sounds">
+          <button class="forestCard">
+            <img src="./images/forest.png" alt="icon of a tree" class="tree">
+            <img src="./images/forest2.png" alt="icon of a tree" class="darkTree hidden">
+            <input type="range" value="0" id="volume" class="forestVolume">
+         </button>
+
+          <button class="rainCard">
+            <img src="./images/cloud.png" alt="icon of a rainy cloud">
+            <input type="range" value="0" id="volume" class="rainVolume">
+         </button>
+
+          <button class="coffeShopCard">
+            <img src="./images/coffe-shop.png" alt="icon of a coffe shop" class="shop">
+            <img src="./images/coffe-shop2.png" alt="icon of a coffe shop" class="darkShop hidden">
+            <input type="range" value="0" id="volume" class="coffeShopVolume">
+         </button>
+
+          <button class="fireplaceCard">
+            <img src="./images/fireplace.png" alt="icon of fire" class="fire">
+            <img src="./images/fireplace2.png" alt="icon of fire" class="darkFire hidden">
+            <input type="range" value="0" id="volume" class="fireplaceVolume">
+         </button>
+
+       </div>
+    </main>
+
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>
