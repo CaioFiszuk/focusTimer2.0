@@ -1,4 +1,12 @@
 # focusTimer2.0
 ----------------
-This is a stopwatch.
-The app allows the user to choose an ambient sound and control its volume. Also is possible to work with a dark mode.
+## This is a stopwatch.
+<p>The user can use it to listen a sound while studying or working</p>
+<p>This app allow its user to choose an ambient sound (a coffe shop, a fireplace, a forest, rain). The user has the possibility to control the volume</p>
+
+<p>The user also can choose between dark mode or light mode</p>
+
+#### Used technologies
+ - HTML
+ - CSS
+ - Javascript
