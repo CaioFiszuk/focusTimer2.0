@@ -1,6 +1,6 @@
 # focusTimer2.0
 ----------------
-## This is a stopwatch.
+## Stopwatch
 <p>The user can use it to listen a sound while studying or working</p>
 <p>This app allow its user to choose an ambient sound (a coffe shop, a fireplace, a forest, rain). The user has the possibility to control the volume</p>
 
